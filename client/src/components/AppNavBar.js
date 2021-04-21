@@ -9,7 +9,7 @@ import {
   NavLink,
 } from "reactstrap";
 
-const AppNavBar = (props) => {
+function AppNavBar (props) {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
